@@ -1,7 +1,5 @@
 # EVE Online Combat Log Analyzer
 
-![EVE Online Combat Log Analyzer](https://placeholder.com/your-banner-image.jpg)
-
 ## Overview
 
 EVE Online Combat Log Analyzer is a free, browser-based tool that helps EVE Online players analyze their combat logs to gain insights into their performance during PVP and PVE engagements. The tool processes log files locally in your browser without sending any data to external servers, ensuring your information remains private.
