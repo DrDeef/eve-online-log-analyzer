@@ -1,0 +1,53 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐛 Bug Report
+
+        Please fill out the following fields to help us investigate the issue.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the bug.
+      placeholder: "What happened? What did you expect to happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Provide steps to reproduce the behavior.
+      placeholder: |
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Screenshots
+      description: |
+        Please copy and paste any relevant logs or attach screenshots.  
+        Use [Markdown](https://guides.github.com/features/mastering-markdown/) for formatting.
+      placeholder: |
+        ```
+        Paste logs here
+        ```
+        ![screenshot](url)
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the software are you using?
+      placeholder: "e.g., v1.2.3"
+    validations:
+      required: true
