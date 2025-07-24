@@ -38,8 +38,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
-      description: What version of the software are you using?
-      placeholder: "e.g., v1.2.3"
+      label: Log URL
+      description: Please provide the URL with the corresponding log
+      placeholder: /analyze/fa076c9d-6790-4ac3-ab3b-6cffb0e2a97f"
     validations:
       required: true
